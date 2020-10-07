@@ -1,0 +1,11 @@
+
+<button (click)="onLoadPhotos()"> zobraz fotky </button>
+
+<div *ngIf="isLoading"> Načítavam </div>
+
+<div *ngFor="let fotka of photos" style="background-color: grey; margin:1rem"> 
+fotka {{fotka.title }}  
+<br />
+<img src= "{{fotka.thumbnailUrl }}" />
+</div>
+

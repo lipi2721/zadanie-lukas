@@ -1,0 +1,30 @@
+.menu--item {
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius:10px;
+  }
+  
+  .menu--item:hover {
+    background:#cccccc;
+    transition: 0.3s;
+  }
+  
+  
+  .menu--item:focus {
+    background: #aaaaaa;
+  }
+  
+  .link--active {
+  
+    background-color:#cccccc;
+  }
+  
+  
+  
+  
+  ::ng-deep menu {
+  padding:0;
+  }
